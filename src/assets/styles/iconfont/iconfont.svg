@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="jiantou2" unicode="&#58901;" d="M512 42.667l-512 682.667h1024l-512-682.667z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="left" unicode="&#59371;" d="M724 677.7V755c0 6.7-7.7 10.4-12.9 6.3L260.3 409.2c-16.4-12.8-16.4-37.5 0-50.3l450.8-352.1c5.3-4.1 12.9-0.4 12.9 6.3v77.3c0 4.9-2.3 9.6-6.1 12.6l-360 281 360 281.1c3.8 3 6.1 7.7 6.1 12.6z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="icon-test" unicode="&#58940;" d="M192 448c0 141.152 114.848 256 256 256s256-114.848 256-256-114.848-256-256-256-256 114.848-256 256z m710.624-409.376l-206.88 206.88A318.784 318.784 0 0 1 768 448c0 176.736-143.264 320-320 320S128 624.736 128 448s143.264-320 320-320a318.784 318.784 0 0 1 202.496 72.256l206.88-206.88 45.248 45.248z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
