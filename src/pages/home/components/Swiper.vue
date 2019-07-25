@@ -2,7 +2,7 @@
 <div class="wrapper">
   <swiper :options="swiperOption">
     <swiper-slide v-for="item of swiperList" :key="item.id">
-      <img class="swiper-img" :src="item.imgUrl" alt="去哪儿门票" style="opacity: 1;">
+      <img class="swiper-img" v-bind:src="item.imgUrl" >
       </swiper-slide>
  
  
@@ -35,7 +35,6 @@
 </script>
 
 <style lang="scss" scoped>
-
 
 .swiper-img{
   width:100%;
