@@ -17,11 +17,9 @@
 
 <script>
   export default {
-    data () {
-    return {
-    }; 
+     name:"Header"
   }
-  }
+  
 </script>
 <style lang='scss' scoped>
 @import '../../../assets/styles/varibles.scss';
