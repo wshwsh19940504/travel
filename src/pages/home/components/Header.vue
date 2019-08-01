@@ -22,6 +22,7 @@
   
 </script>
 <style lang='scss' scoped>
+// rem=px/html.font-size
 @import '../../../assets/styles/varibles.scss';
 .header{
   display: flex;
