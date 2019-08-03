@@ -1,5 +1,5 @@
 <template>
-<div class="icons">
+<div class="icons" :options = "swiperOptions">
       <swiper >
     <swiper-slide v-for="(page,index) of pages" :key="index">
     <div class="icon" v-for="item of page" :key="item.id">
@@ -20,56 +20,11 @@
 <script>
     export default {
         data (){
-  return {
-
-        iconList: [{
-            id:'0001',
-            imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-         desc:'景点门票'
-        },
-        {
-            id:'0002',
-            imgUrl:'http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png',
-         desc:'深圳必游我在深圳'
-        },
-        {
-            id:'0003',
-            imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/4d/a1eda1a2b8414302.png',
-         desc:'广州融创'
-        },
-        {
-            id:'0004',
-            imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png',
-         desc:'暑期夜场'
-        },
-        {
-            id:'0005',
-            imgUrl:'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/bda58ffc3016edad84e656e8a94b0321.png',
-         desc:'深圳动物园'
-        },
-        {
-            id:'0006',
-            imgUrl:'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/cba147cf6cfcea7109d0bff6aac6f626.png',
-         desc:'玩转澳门'
-        },
-        {
-            id:'0007',
-            imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/a6/6d97515091789602.png',
-         desc:'水上乐园'
-        },
-        {
-            id:'0008',
-            imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png',
-         desc:'东部华侨城'
-        },
-        {
-            id:'0009',
-            imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png',
-         desc:'世界之窗'
-        }
-      
-      ]
-      }
+            return {
+                swiperOptions:{
+                    autoplay:false
+                    }
+            }
      
         },
     
@@ -85,8 +40,10 @@
             } )
             return pages
         }
-    }
-        
+    },
+        props:{
+            iconList:Array
+        }
     }
 </script>
 
